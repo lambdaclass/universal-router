@@ -8,7 +8,7 @@ contract DeployEthrexDev is DeployUniversalRouter {
     function setUp() public override {
         params = RouterParameters({
             permit2: 0x000000000022D473030F116dDEE9F6B43aC78BA3,
-            weth9: 0xeC7ed8038B76DbcB8F78b189EFf9D7C7373A45BE,
+            weth9: 0x36CCFC7163a2C2cdF7a6D6DA202eb9c7aa18E4eA,
             seaportV1_5: UNSUPPORTED_PROTOCOL,
             seaportV1_4: UNSUPPORTED_PROTOCOL,
             openseaConduit: UNSUPPORTED_PROTOCOL,
@@ -24,7 +24,7 @@ contract DeployEthrexDev is DeployUniversalRouter {
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
             v2Factory: UNSUPPORTED_PROTOCOL,
-            v3Factory: 0xdEb1481F062db511358b2497ad1C2eB23DB76225,
+            v3Factory: 0xAF66f763079a9026bC7324B5804f28c35f921c8b,
             pairInitCodeHash: BYTES32_ZERO,
             poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
         });
