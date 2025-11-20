@@ -8,7 +8,7 @@ contract DeployEthrexDev is DeployUniversalRouter {
     function setUp() public override {
         params = RouterParameters({
             permit2: 0x000000000022D473030F116dDEE9F6B43aC78BA3,
-            weth9: 0x36CCFC7163a2C2cdF7a6D6DA202eb9c7aa18E4eA,
+            weth9: 0x000000000000000000000000000000000000FfFD,
             seaportV1_5: UNSUPPORTED_PROTOCOL,
             seaportV1_4: UNSUPPORTED_PROTOCOL,
             openseaConduit: UNSUPPORTED_PROTOCOL,
